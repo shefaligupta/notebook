@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Online Notebook</title>
+<link type="text/css" href="main.css" rel="stylesheet"/>
+</head>
+<body>
+ <header><h4>My Notebook</h4></header>
+ <section>
+ <button onclick="myNotebook.newPage()" class="btn">New Page</button>
+ <button onclick="myNotebook.removeAll()" class='btn'>Delete Notes</button>
+ <section class="lines"></section>
+ <button style="display: none;" id="next"
+  onclick="myNotebook.toggleSlide('next')" class="btn_m">>></button>
+ <ul id="book">
+ </ul>
+ <button style="display: none;" id="previous"
+  onclick="myNotebook.toggleSlide('prev')" class="btn_m"><<</button>
+ </section>
+ 
+ <script type="text/javascript" src="myscript.js"></script>
+</body>
+</html>
+
+
